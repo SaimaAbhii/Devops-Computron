@@ -5,3 +5,8 @@ command to list disk space in linux : df -h
 lsblk :
       The lsblk command in Linux is used to list all the block devices on your system. Block devices include things like hard drives, SSDs, and USB drives. When you run lsblk, 
 it shows you a tree-like view of these devices along with their partitions, sizes, and mount points, helping you understand the storage layout of your system.
+
+
+fdisk : to partition
+
+	fdisk /dev/xvdf 
