@@ -1,6 +1,6 @@
 
 command to list disk space in linux : df -h
-      The df -h command in Linux is used to display information about disk space usage on your file systems
+      The df -h command in Linux is used to display information about disk space usage on your file systems.
 
 lsblk :
       The lsblk command in Linux is used to list all the block devices on your system. Block devices include things like hard drives, SSDs, and USB drives. When you run lsblk, 
