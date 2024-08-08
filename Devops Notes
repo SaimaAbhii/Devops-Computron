@@ -10,3 +10,11 @@ it shows you a tree-like view of these devices along with their partitions, size
 fdisk : to partition
 
 	fdisk /dev/xvdf 
+Attaching Disk permenently
+
+cd /etc
+nano fstab
+	disk name		mount path		disk format			default 0 0
+	
+UUID of disk
+	blkid /dev/<disk partition name>
